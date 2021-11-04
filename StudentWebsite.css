@@ -1,0 +1,98 @@
+/*  **Old Nav**
+
+nav { font-weight: bold; 
+    text-indent: 1em;
+    font-size: 1em; 
+    text-align: center;
+}
+nav a {  color:grey; text-decoration: none;
+}
+*/
+
+
+
+nav#weblinks
+{ 
+    
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+    font-size: 1em; 
+    text-align: center;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgba(107,142,35,0.1);
+    position:absolute;
+    left: 0px;
+    top: 0px;
+    padding: 25px 0px;
+   
+    backdrop-filter: blur(8px);
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+nav a
+{
+
+    color: black;
+    letter-spacing:1px;
+    text-decoration:none;
+}
+
+nav a:hover
+
+{
+    font-weight: bold; 
+    display: inside;
+    text-shadow: 0.5px 0.5px 0.5px #333;
+    
+}
+
+   body { 
+       background-image: url('Background.jpg');
+       background-repeat: no-repeat;
+       background-attachment: fixed;
+       background-size: cover;
+   }
+   hr {
+   border: none;
+   /* top    */ border-top: 1px solid olivedrab; 
+   /* middle */ background-color: olivedrab; color:olivedrab;
+   /* bottom */ border-bottom: 1px solid olivedrab;
+   height: 1px;
+   *height: 3px; /* IE6+7 need the total height */
+}
+.center {
+ display: block;
+ margin-left: auto;
+ margin-right: auto;
+ width: 150px;
+ height: 150px;
+}
+.center2 {
+ position:relative; 
+ top:10px;
+ left:350px;
+ display: block;
+ 
+ width: 300px;
+ height: 200px;
+}
+#assignment2{
+    text-align: left;
+}
+/**
+               * 1. Centers the content.
+               * 2. Feel free to change this, this sets the width
+               * 3. Adds some internal 'padding' to the div
+               */
+.wrapper 
+               {
+                   margin-right: 10px; /* 1 */
+                   margin-left: auto; /* 1 */
+                   max-width:1920px; /* 2 */
+                   padding-right: 10px; /* 3 */
+                   padding-left: 10px; /* 3 */
+               }
+

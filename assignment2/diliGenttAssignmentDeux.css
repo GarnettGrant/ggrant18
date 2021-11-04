@@ -1,0 +1,236 @@
+body {
+    width: 980px;
+    margin-right: auto;
+    margin-left: auto;
+    
+    background-image: url('Background2.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    
+}
+
+nav#weblinks
+{ 
+    
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+    font-size: 1em; 
+    text-align: center;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgba(174,209,255,0.5);
+    position:absolute;
+    left: 0px;
+    top: 0px;
+    padding: 25px 0px;
+   
+    backdrop-filter: blur(8px);
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+nav a
+{
+
+    color: #368eff;
+    letter-spacing:1px;
+    text-decoration:none;
+    
+}
+
+nav a:hover
+
+{
+    font-weight: bold; 
+    display: inside;
+}
+
+
+
+h3{
+    font-family: serif;
+    font-weight: bold;
+    text-align: left;
+}
+
+h1#Motto{
+    margin-top:-20px;
+    margin-left: auto;
+    margin-right: auto;
+    color: #368eff;
+}
+
+p#mainParagraph{
+    color: #368eff;
+    text-align: center;
+    font-weight: bold;
+    font-size:larger;
+    margin-bottom:60px;
+    transition: .5s ease;
+}
+
+p#mainParagraph:hover{
+    background-color: rgba(255,255,255,0.5);
+}
+
+.mainParagraphEm{
+    font-variant: small-caps;
+    text-transform: uppercase;
+    color:#000000;
+    font-size: small;
+    
+}
+
+.bodyParagraphs{
+    color:#368eff;
+    transition: .5s ease;
+    
+}
+.bodyParagraphs:hover{
+    background-color: rgba(255,255,255,0.5);
+}
+
+.boxesTitles{
+    text-transform: uppercase;
+    color: #000000;
+    margin-bottom:auto;
+}
+  
+.conservationBoxesLeft{
+    display:block;
+    float:left;
+    text-align: center;
+   
+}
+.conservationBoxesLeft>a>img{
+    width: 445px;
+    height: 400px;
+    border-radius: 50%;
+}
+.conservationBoxesRight{
+   float: right;
+   text-align: center;
+   display:block;
+  
+   
+}
+.conservationBoxesRight>a>img{
+    width: 445px;
+    height: 400px;
+    border-radius: 50%;
+}
+
+footer{
+    margin-top:50px;
+    text-align: center;
+    background-color:#FFFFFFFF;
+}
+
+p#bottomParagraph{
+
+font-weight: bold;
+margin-top:160px;
+text-align: center;
+
+}
+
+#bottomText{
+  background-color:rgba(54,142,255,0.05);
+  color:#000000;
+}
+
+#references{
+  text-align: center;
+  background-color: #ffffffff;
+  margin-top: -20px;
+
+}
+
+
+
+/*
+*
+*
+*
+Credit for fade effect w3schools.com/css/tryit.asp?filename=trycss_css_image_overlay_opacity*/
+.container {
+    position: relative;
+    width: 50%;
+    height:50%;
+    display:block;
+    float:left;
+    padding-right: 10px;
+    padding-bottom: 50px;
+    text-align: center;
+   
+  }
+  .containerRight {
+    position: relative;
+    height:50%;
+    width: 50%;
+    display:block;
+    padding-left: 10px;
+    padding-bottom: 50px;
+    float:right;
+    text-align: center;
+   
+  }
+  
+  .image {
+    opacity: 1;
+    display: block;
+    transition: .5s ease;
+    backface-visibility: hidden;
+    border-radius: 0%;
+    width: 345px;
+    height: 300px;
+    
+  }
+  
+  .middle {
+    
+    transition: .5s ease;
+    opacity: 1;
+    position: absolute;
+    top: 43.5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%)
+    
+  }
+  
+  .container:hover .image {
+    opacity: 0.3;
+  }
+  
+  .container:hover .middle {
+    opacity: 1;
+    
+  }
+  .containerRight:hover .image {
+    opacity: 0.3;
+  }
+  
+  .containerRight:hover .middle {
+    opacity: 1;
+    
+  }
+ 
+  .text {
+    color: white;
+    font-size: 16px;
+    padding: 16px 32px;
+   
+    
+    
+  }
+
+
+ 
+/*
+*
+*
+*
+Credit for fade effect w3schools.com/css/tryit.asp?filename=trycss_css_image_overlay_opacity*/

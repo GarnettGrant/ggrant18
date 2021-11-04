@@ -1,0 +1,8 @@
+body{
+    background: #111;
+}
+body > img{
+    width:980px;
+    margin-left: auto;
+    margin-right: auto;
+}
