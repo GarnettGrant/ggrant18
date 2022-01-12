@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<!-- Created by Garnett Grant, Student #301188923 - November 10th, 2021 -->
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -13,7 +14,7 @@
 <a href="/ggrant18/index.html">Home</a> 
 <a href="/ggrant18/aboutMe.html">About me</a> 
 <div class="dropdown">
-    <button class="dropbtn">diliGentt</button>
+    <button class="dropbtn"><a href="/ggrant18/diliGentt.html">diliGentt</a></button>
     <div class="dropdown-content">
       <a href="/ggrant18/aiSafety.html">AI Safety</a>
       <a href="/ggrant18/jnas.html">JNAS</a>
@@ -28,6 +29,12 @@
         <a href="/ggrant18/assignment4/assignment4.html"><span style ="color:#d7e137">Continuing Education</span></a>
     </div>
   </div>
+  <div class="dropdown">
+    <button class="dropbtn">Term Project</button>
+    <div class="dropdown-content">
+        <a href="/ggrant18/termProject/index.html"><span style ="color:#C40D10">Janae Hall:: <br> Realtor</span></a>
+    </div>
+  </div>
 
  &nbsp;
  &nbsp; &nbsp; &nbsp; &nbsp;
@@ -38,7 +45,10 @@
 
 <body>
     <header>
-        <a href="https://www.centennialcollege.ca/"target="_blank"><img id="CenColBanner"src="images/CentennialCMYK.jpeg" alt="Cenntennial College Banner"></a>
+        <div id="cenColBannerBackground">
+            <a href="https://www.centennialcollege.ca/"target="_blank"><img id="CenColBanner"src="images/CentennialCMYK.jpeg" alt="Cenntennial College Banner"></a>
+        </div>
+        
     </header>
     <div id="allPage">
 
@@ -54,7 +64,21 @@
     <tr>
         <td>
             <b><label for="txtCourseNameOrCode">Course Name/Code: </label></b> &nbsp;
-            <input type="text" name="txtCourseNameOrCode" id="txtCourseNameOrCode" size="100" placeholder="e.g. COMP213 OR Web Interface Design" maxlength="100" required ="required">
+            <input type="text" name="txtCourseNameOrCode" id="txtCourseNameOrCode" size="100" placeholder="e.g. COMP213 OR Web Interface Design" maxlength="48" required ="required" list="txtCourseNameOrCodes">
+            <datalist id ="txtCourseNameOrCodes">
+                <option>COMP213</option>
+                <option>Web Interface Design</option>
+                <option>COMM160</option>
+                <option>College Communications I</option>
+                <option>MATH175</option>
+                <option>Functions and Number Systems</option>
+                <option>COMP100</option>
+                <option>Programming I</option>
+                <option>COMP120</option>
+                <option>Software Engineering Fundamentals</option>
+                <option>GNED228</option>
+                <option>Artificial Intelligence: Are Robots People, Too?</option>
+            </datalist>
         </td>
     </tr>
         <!-- Row 2 -->
@@ -63,11 +87,11 @@
         <td>
             
             <b><label for="optSemester">Semester:&nbsp;&nbsp;&nbsp;&nbsp; </label></b>
-            <input type="radio" name="optSemester" id="optSemester" value="Fall"required ="required" checked="checked">Fall &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;
+            <input type="radio" name="optSemester" id="optSemester" value="Fall"required ="required">Fall &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;
             <input type="radio" name="optSemester" id="optSemester" value="Winter"required ="required">Winter &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;
             <input type="radio" name="optSemester" id="optSemester" value="SpringSummmer"required ="required">Spring/Summmer
             
-            <b> <label for="txtYear">Year:</label></b> <input type="number" name="numberYear" id="numberYear" min="2021" max="2051" placeholder="2021"required ="required">
+            <b> <label for="txtYear">Year:</label></b> <input maxlength="4" type="number" name="numberYear" id="numberYear" min="2021" max="2051" placeholder="2021"  required ="required">
         </td>
     </tr>
      <!-- Instructor Name Row -->
@@ -93,10 +117,10 @@
                     </tr>
                     <tr>
                         <td>
-                            <input type="radio" name="optQuestionOne" id="optQuestionOne" value="Excellent"required ="required">Excellent
-                            <input type="radio" name="optQuestionOne" id="optQuestionOne" value="Good"required ="required">Good
-                            <input type="radio" name="optQuestionOne" id="optQuestionOne" value="Fair"required ="required">Fair
-                            <input type="radio" name="optQuestionOne" id="optQuestionOne"value="Not Satisfactory"required ="required">Not Satisfactory
+                            <input type="radio" name="optQuestionOne" id="optQOneExcel" value="Excellent"required ="required">Excellent
+                            <input type="radio" name="optQuestionOne" id="optQOneGood" value="Good"required ="required">Good
+                            <input type="radio" name="optQuestionOne" id="optQOneFair" value="Fair"required ="required">Fair
+                            <input type="radio" name="optQuestionOne" id="optQOneNotSat"value="Not Satisfactory"required ="required">Not Satisfactory
                         <br>
                         <br>
                         </td>
@@ -108,10 +132,10 @@
                     </tr>
                     <tr>
                         <td>
-                            <input type="radio" name="optQuestionTwo" id="optQuestionTwo" value="Excellent"required ="required">Excellent
-                            <input type="radio" name="optQuestionTwo" id="optQuestionTwo" value="Good"required ="required">Good
-                            <input type="radio" name="optQuestionTwo" id="optQuestionTwo" value="Fair"required ="required">Fair
-                            <input type="radio" name="optQuestionTwo" id="optQuestionTwo"value="Not Satisfactory"required ="required">Not Satisfactory
+                            <input type="radio" name="optQuestionTwo" id="optQTwoExcel" value="Excellent"required ="required">Excellent
+                            <input type="radio" name="optQuestionTwo" id="optQTwoGood" value="Good"required ="required">Good
+                            <input type="radio" name="optQuestionTwo" id="optQTwoFair" value="Fair"required ="required">Fair
+                            <input type="radio" name="optQuestionTwo" id="optQTwoNotSat"value="Not Satisfactory"required ="required">Not Satisfactory
                             <br>
                             <br>
                         </td>
@@ -123,10 +147,10 @@
                     </tr>
                     <tr>
                         <td>
-                            <input type="radio" name="optQuestionThree" id="optQuestionThree" value="Excellent"required ="required">Excellent
-                            <input type="radio" name="optQuestionThree" id="optQuestionThree" value="Good"required ="required">Good
-                            <input type="radio" name="optQuestionThree" id="optQuestionThree" value="Fair"required ="required">Fair
-                            <input type="radio" name="optQuestionThree" id="optQuestionThree"value="Not Satisfactory"required ="required">Not Satisfactory
+                            <input type="radio" name="optQuestionThree" id="optQThreeExcel" value="Excellent"required ="required">Excellent
+                            <input type="radio" name="optQuestionThree" id="optQThreeGood"  value="Good"required ="required">Good
+                            <input type="radio" name="optQuestionThree" id="optQThreeFair"  value="Fair"required ="required">Fair
+                            <input type="radio" name="optQuestionThree" id="optQThreeNotSat"value="Not Satisfactory"required ="required">Not Satisfactory
                             <br>
                             <br>
                         </td>
@@ -137,10 +161,10 @@
                     </tr>
                     <tr>
                         <td>
-                            <input type="radio" name="optQuestionFour" id="optQuestionFour" value="Excellent"required ="required">Excellent
-                            <input type="radio" name="optQuestionFour" id="optQuestionFour" value="Good"required ="required">Good
-                            <input type="radio" name="optQuestionFour" id="optQuestionFour" value="Fair"required ="required">Fair
-                            <input type="radio" name="optQuestionFour" id="optQuestionFour"value="Not Satisfactory"required ="required">Not Satisfactory
+                            <input type="radio" name="optQuestionFour" id="optQFourExcel" value="Excellent"required ="required">Excellent
+                            <input type="radio" name="optQuestionFour" id="optQFourGood"  value="Good"required ="required">Good
+                            <input type="radio" name="optQuestionFour" id="optQFourFair"  value="Fair"required ="required">Fair
+                            <input type="radio" name="optQuestionFour" id="optQFourNotSat"value="Not Satisfactory"required ="required">Not Satisfactory
                             <br>
                             <br>    
                         </td>
@@ -151,10 +175,10 @@
                     </tr>
                     <tr>
                         <td>
-                            <input type="radio" name="optQuestionFive" id="optQuestionFive" value="Excellent"required ="required">Excellent
-                            <input type="radio" name="optQuestionFive" id="optQuestionFive" value="Good"required ="required">Good
-                            <input type="radio" name="optQuestionFive" id="optQuestionFive" value="Fair"required ="required">Fair
-                            <input type="radio" name="optQuestionFive" id="optQuestionFive"value="Not Satisfactory"required ="required">Not Satisfactory
+                            <input type="radio" name="optQuestionFive" id="optQFiveExcel" value="Excellent"required ="required">Excellent
+                            <input type="radio" name="optQuestionFive" id="optQFiveGood"  value="Good"required ="required">Good
+                            <input type="radio" name="optQuestionFive" id="optQFiveFair"  value="Fair"required ="required">Fair
+                            <input type="radio" name="optQuestionFive" id="optQFiveNotSat"value="Not Satisfactory"required ="required">Not Satisfactory
                             <br>
                             <br>
                         </td>
@@ -182,10 +206,10 @@
                     </tr>
                     <tr>
                         <td>
-                            <input type="radio" name="optQuestionSix" id="optQuestionSix" value="Excellent"required ="required">Excellent
-                            <input type="radio" name="optQuestionSix" id="optQuestionSix" value="Good"required ="required">Good
-                            <input type="radio" name="optQuestionSix" id="optQuestionSix" value="Fair"required ="required">Fair
-                            <input type="radio" name="optQuestionSix" id="optQuestionSix"value="Not Satisfactory"required ="required">Not Satisfactory
+                            <input type="radio" name="optQuestionSix" id="optQSixExcel" value="Excellent"required ="required">Excellent
+                            <input type="radio" name="optQuestionSix" id="optQSixGood"  value="Good"required ="required">Good
+                            <input type="radio" name="optQuestionSix" id="optQSixFair"  value="Fair"required ="required">Fair
+                            <input type="radio" name="optQuestionSix" id="optQSixNotSat"value="Not Satisfactory"required ="required">Not Satisfactory
                         <br>
                         <br>
                         </td>
@@ -197,10 +221,10 @@
                     </tr>
                     <tr>
                         <td>
-                            <input type="radio" name="optQuestionSeven" id="optQuestionSeven" value="Excellent"required ="required">Excellent
-                            <input type="radio" name="optQuestionSeven" id="optQuestionSeven" value="Good"required ="required">Good
-                            <input type="radio" name="optQuestionSeven" id="optQuestionSeven" value="Fair"required ="required">Fair
-                            <input type="radio" name="optQuestionSeven" id="optQuestionSeven"value="Not Satisfactory"required ="required">Not Satisfactory
+                            <input type="radio" name="optQuestionSeven" id="optQSevenExcel" value="Excellent"required ="required">Excellent
+                            <input type="radio" name="optQuestionSeven" id="optQSevenGood"  value="Good"required ="required">Good
+                            <input type="radio" name="optQuestionSeven" id="optQSevenFair"  value="Fair"required ="required">Fair
+                            <input type="radio" name="optQuestionSeven" id="optQSevenNotSat"value="Not Satisfactory"required ="required">Not Satisfactory
                             <br>
                             <br>
                         </td>
@@ -212,10 +236,10 @@
                     </tr>
                     <tr>
                         <td>
-                            <input type="radio" name="optQuestionEight" id="optQuestionEight" value="Excellent"required ="required">Excellent
-                            <input type="radio" name="optQuestionEight" id="optQuestionEight" value="Good"required ="required">Good
-                            <input type="radio" name="optQuestionEight" id="optQuestionEight" value="Fair"required ="required">Fair
-                            <input type="radio" name="optQuestionEight" id="optQuestionEight"value="Not Satisfactory"required ="required">Not Satisfactory
+                            <input type="radio" name="optQuestionEight" id="optQEightExcel" value="Excellent"required ="required">Excellent
+                            <input type="radio" name="optQuestionEight" id="optQEightGood"  value="Good"required ="required">Good
+                            <input type="radio" name="optQuestionEight" id="optQEightFair"  value="Fair"required ="required">Fair
+                            <input type="radio" name="optQuestionEight" id="optQEightNotSat"value="Not Satisfactory"required ="required">Not Satisfactory
                             <br>
                             <br>
                         </td>
@@ -242,9 +266,9 @@
                     </tr>
                     <tr>
                         <td>
-                            <input type="radio" name="optQuestionNine" id="optQuestionNine" value="Excellent"required ="required">Yes
-                            <input type="radio" name="optQuestionNine" id="optQuestionNine" value="Good"required ="required">No
-                            <input type="radio" name="optQuestionNine" id="optQuestionNine" value="Fair"required ="required">Not Sure
+                            <input type="radio" name="optQuestionNine" id="optQNineYes" value="Yes"required ="required">Yes
+                            <input type="radio" name="optQuestionNine" id="optQNineNo" value="No"required ="required">No
+                            <input type="radio" name="optQuestionNine" id="optQNineNotSure" value="Not Sure"required ="required">Not Sure
                         <br>
                         <br>
                         </td>
@@ -256,9 +280,9 @@
                     </tr>
                     <tr>
                         <td>
-                            <input type="radio" name="optQuestionTen" id="optQuestionTen" value="Excellent"required ="required">Yes
-                            <input type="radio" name="optQuestionTen" id="optQuestionTen" value="Good"required ="required">No
-                            <input type="radio" name="optQuestionTen" id="optQuestionTen" value="Fair"required ="required">Not Sure
+                            <input type="radio" name="optQuestionTen" id="optQTenYes" value="Yes"required ="required">Yes
+                            <input type="radio" name="optQuestionTen" id="optQTenNo" value="No"required ="required">No
+                            <input type="radio" name="optQuestionTen" id="optQTenNotSure" value="Not Sure"required ="required">Not Sure
                             <br>
                             <br>
                         </td>

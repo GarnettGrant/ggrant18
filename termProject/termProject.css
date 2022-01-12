@@ -1,0 +1,665 @@
+*{box-sizing: border-box;
+    margin: 0;
+}
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #e4e4e4;
+}
+header{
+    background-image: url(images/royallepageSmaller.png);
+    color: #000;
+    background-color: #fff;
+    background-repeat: no-repeat;
+    background-size: auto 600px 179px; 
+    background-position-x: 15px;
+    background-position-y: -33px;
+    padding: .8em 0 .8em 11em;
+}
+header h1,h5{
+    font-weight: lighter;
+}
+header h5{
+    margin-top: -5px;
+}
+#wrapper{
+    background-color: #e4e4e4;
+}
+
+
+main{
+    width:1700px;
+    height:auto;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #fff;
+    padding-top: 10px;
+}
+nav{
+    position:sticky;
+    top:0;
+    z-index: 1;
+    background-color: #ec383b;
+    width: 1800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+ nav a{
+     color: white;
+     text-decoration: none;
+     text-align: center;
+ }
+
+.navMargin{
+    color: white;
+        margin-left: 166px;
+        margin-right: 166px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover, nav a:focus{
+    text-decoration: underline;
+} 
+/* Dropdown Button */
+.dropbtn {
+    background-color: rgba(0,0,0,0.0); 
+    /* color: white; */
+    /* padding: 16px; */
+    font-weight: bold;
+    font-size: 1em;
+    border: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+    position: relative;
+    display: inline-block;
+    margin-left: 166px;
+    margin-right: 166px;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1; /*Edit this for background colour of drop down menu*/
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    /* text-align: left; */
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {background-color:#ec383b; color:white; text-decoration: none;}
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  /* Change the background color of the dropdown button when the dropdown content is shown */
+  .dropdown:hover .dropbtn {text-decoration: underline; background-color: #ec383b;}
+#divider{
+    color: #e4e4e4;
+    border: solid #e4e4e4;
+    border-width: 50px;
+    
+}
+#index{
+    background-image: url(images/InteriorPicture.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin-top: -10px;
+    padding-bottom: 225px;
+}
+#index h1 {
+    text-align: center;
+    padding-top: 300px;
+    padding-left: 75px;
+    font-size:3em;
+    font-weight: lighter;
+}
+
+#MissionStatement{
+    margin-bottom: 100px;
+}
+#MissionStatement img{
+    margin-left: 40px;
+}
+#MissionStatement figure{
+font-size: 1.5em;
+margin-top: 100px;
+margin-bottom: 20px;
+}
+#MissionStatement figcaption{
+    margin-top: 20px;
+    margin-left: 50px;
+}
+#MSparagraph{
+    padding: 10px 20px;
+    padding-bottom: 10px;
+    margin-left: 50px;
+    margin-right: 980px;
+    text-align: left;
+    font-style: italic;
+    background-color: #ec383b;
+    color: white;
+    font-weight: 300;
+    line-height: 1.5;
+}
+
+#LePageMS{
+    width:50%;
+    float: right;
+    background-color:rgba(0, 0, 0, 0.8);
+    padding: 98px 80px;
+    margin-top: -907px;
+    margin-right: 50px;
+    text-align: left;
+    font-size: 1.2em;
+    font-style: italic;
+    color: white;
+    font-weight: 300;
+    line-height: 2.0;
+}
+#LePageMS h1{
+    font-size:2.5em;
+    font-weight: lighter;
+    font-style: normal;
+}
+
+
+#BuyHomeBanner{
+    background:rgba(255, 255, 255, 0.9);
+    /*background:rgba(255, 27, 27, 0.7);*/
+    width: 50%;
+    text-align: center;
+    margin-left: 375px;
+    margin-top: -100px;
+    color: black;
+    border-radius: 7px 7px 7px ;
+}
+
+#BuyOrSell{
+    font-size:smaller;
+    color: white;
+    background:rgba(236, 56, 59, 1);
+    border-radius: 7px 7px 7px;
+}
+footer{
+    background-color: #ec383b;
+}
+#footerParagraphOne{
+    color:white;
+    padding-left: 100px;
+    padding-top: 80px;
+}
+#footerParagraphOne a{
+    text-decoration: none;
+    color: black;
+    font-style: italic;
+}
+#footerParagraphOne a:hover{
+    text-decoration: underline;
+}
+#footerParagraphTwo{
+    color:white;
+    padding-top: -200px;
+}
+#copyright{
+    background-color:rgb(49, 49, 49);
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    font-style: italic;
+}
+#copyrightRealtor{
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 80px;
+    padding-left: 100px;
+    text-align: left;
+    font-style: italic;
+}
+
+/* Available properties CSS */
+
+.AvailProp{
+    /* display: block; */
+    /* background-color: rgba(255, 255, 255, 0.9); */
+    /* width: 1500px; */
+    /* text-align: center; */
+    margin-left: auto;
+    margin-right: auto;
+    /* padding:100px; */
+    /* margin-top: 100px;
+    margin-bottom: 100px; */
+    /* border:solid rgba(0, 0, 0, 0.03); */
+    border-radius: 7px 7px 7px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
+    font-size: larger;
+    color: black;
+    margin-bottom: -3.69px;
+    
+}
+
+
+
+.AvailProp h4{
+    font-size: larger;
+    font-weight:bold;
+}
+
+.AvailProp .price{
+    font-size:x-large;
+    padding: 130px;
+    margin-top: 10px;
+    border-radius: 7px 7px 7px ;
+    background:rgba(255, 0, 0, 0.8);
+    color:white;
+}
+
+#AvailPropDescripOne{
+    float:right;
+    margin-right: 220px;
+    padding-top: 50px;
+    text-align: center;
+    width:550px;
+}
+
+#AvailPropDescripTwo{
+      float:right;
+      margin-right: 220px;
+      padding-top: 50px;
+      text-align: center;
+      width:550px;
+}
+#AvailPropDescripTwo h4{
+    margin-top: 35px;
+}
+
+
+#AvailPropDescripThree{
+     float:right;
+     margin-right: 220px;
+     padding-top: 50px;
+     text-align: center;
+     width:550px;
+}
+
+
+.youTubeVideo {
+    margin-top: -10px;
+    position: relative;
+    height: 100%;
+    width: 100.01%;
+}
+
+
+#bg-video {
+    height: 0;
+    max-width: 100%;
+    overflow: hidden;
+    padding-bottom: 56.23%;
+    position: relative;
+}
+
+#bg-video video {
+    border: medium none;
+    height: 100%;
+    max-width: 100%;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+#video-title-overlay{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    background: rgba(249, 249, 249, .9);
+    border-radius: 7px;
+    position:absolute;
+    margin-top: 180px;
+    color: black; 
+  	width:50%;
+    margin-left: 385px;
+  	vertical-align: middle;
+}
+#video-title-overlay h1{
+    font-weight: lighter;
+    font-size:3em;
+}
+#video-title-overlay p{
+    padding-bottom: 75px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: smaller;
+}
+#video-title-overlay-bottom{
+    padding: 5px;
+    font-size:0.7em;
+    color: white;
+    background:rgba(236, 56, 59, 1);
+    border-radius: 7px 7px 7px;
+}
+/* CSS for the First Property For Sale Page */
+
+#City{
+    color: white;
+    text-align: center;
+    margin-top: -10px;
+    padding:10px;
+
+}
+
+#PropertyOne{
+    background-color: rgba(0,0,0,0.5);
+    background-blend-mode: overlay;
+    background-image: url('images/a005-scottw-664.jpg');
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    background-size: cover;
+    padding-bottom: 400px;
+
+}
+#PropertyOne h2{
+    text-align: center;
+    padding-bottom: 15px;   
+}
+
+#PropertyOneMain{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#PropertyOneMain > img{
+    border-radius: 7px 7px 7px;
+    border: 10px 10px 10px black;
+    box-shadow: 10px 10px 10px;
+}
+#property-one-main-content{
+    padding: 50px;
+    margin-left: 310px;
+    margin-right: 310px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    flex: 1 1 auto;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 7px 7px 7px;
+    border: 10px 10px 10px black;
+    box-shadow: 10px 10px 10px;
+}
+
+#property-one-video-preview{
+    border-radius: 7px 7px 7px 7px;
+    border: 10px 10px 10px 10px black;
+    box-shadow: 10px 10px 10px 10px;
+}
+
+#property-one-main-content h1{
+    padding: 5px;
+    color: white;
+    background:rgba(236, 56, 59, 1);
+    border-radius: 7px 7px 7px;
+    
+}
+
+
+/* CSS for Contacts page */
+textarea {
+    resize: none;
+    display:flex;
+  }
+
+#contact-form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    line-height: 30px;
+}
+#contact-form-h1{
+    margin-top: -10px;
+    color:white;
+    text-align: center;
+    padding: 10px;
+}
+#contact-form-header{
+    margin-top: 70px;
+    padding: 5px;
+    color: white;
+    background:rgba(236, 56, 59, 1);
+    border-radius: 7px 7px 7px;
+    text-align: center;
+    width: 50%;
+}
+#contact-form form{
+    padding: 10px;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background:rgba(255, 255, 255, 0.9);
+    width: 50%;
+    text-align: center;
+    color: black;
+    border-radius: 7px 7px 7px;
+    line-height: 30px;
+}
+#contact-form-main{ 
+    background-color: rgba(0,0,0,0.5);
+    background-blend-mode: overlay;
+    background-image: url('images/a005-scottw-664.jpg');
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    background-size: cover;
+    padding-bottom: 300px;
+}
+#submit-button{
+    padding: 10px;
+    margin-top: 10px;
+    color: white;
+    background:rgba(236, 56, 59, 1);
+    border-radius: 7px 7px 7px;
+    border: transparent;
+}
+#submit-button:hover{
+    background:rgba(236, 56, 59, 0.8);
+}
+
+/* CSS for Second Property Page */
+#property-two-gallery-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+#PropertyTwo{
+    background-color: rgba(0,0,0,0.5);
+    background-blend-mode: overlay;
+    background-image: url('images/blue-ocean-beside-brown-concrete-mountain-during-daytime-wallpaper-preview.jpg');
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    background-size:cover;
+    padding-bottom: 400px;
+
+}
+#PropertyTwo h2{
+    text-align: center;
+    padding-bottom: 15px;   
+}
+
+#PropertyTwoMain{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#PropertyTwoMain > img{
+    border-radius: 7px 7px 7px;
+    border: 10px 10px 10px black;
+    box-shadow: 10px 10px 10px;
+}
+#property-two-main-content{
+    padding: 50px;
+    margin-left: 310px;
+    margin-right: 310px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    flex: 1 1 auto;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 7px 7px 7px;
+    border: 10px 10px 10px black;
+    box-shadow: 10px 10px 10px;
+}
+
+#property-two-video-preview{
+    border-radius: 7px 7px 7px 7px;
+    border: 10px 10px 10px 10px black;
+    box-shadow: 10px 10px 10px 10px;
+}
+
+#property-two-main-content h1{
+    padding: 5px;
+    color: white;
+    background:rgba(236, 56, 59, 1);
+    border-radius: 7px 7px 7px;   
+}
+
+.property-two-content-photos{
+    border-radius: 7px 7px 7px;
+    border: 10px 10px 10px black;
+    box-shadow: 10px 10px 10px;
+    
+}
+
+
+/* CSS for Third Property Page */
+#property-third-gallery-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+#PropertyThree{
+    background-color: rgba(0,0,0,0.5);
+    background-blend-mode: overlay;
+    background-image: url('images/Sibbald_Point_Provincial_Park_-_a_view_to_Lake_Simcoe_\(2\).jpg');
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    background-size:cover;
+    padding-bottom: 400px;
+
+}
+#PropertyThree h2{
+    text-align: center;
+    padding-bottom: 15px;   
+}
+
+#PropertyThreeMain{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#PropertyThreeMain > img{
+    border-radius: 7px 7px 7px;
+    border: 10px 10px 10px black;
+    box-shadow: 10px 10px 10px;
+}
+#property-three-main-content{
+    padding: 50px;
+    margin-left: 310px;
+    margin-right: 310px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    flex: 1 1 auto;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 7px 7px 7px;
+    border: 10px 10px 10px black;
+    box-shadow: 10px 10px 10px;
+}
+
+#property-three-video-preview{
+    border-radius: 7px 7px 7px 7px;
+    border: 10px 10px 10px 10px black;
+    box-shadow: 10px 10px 10px 10px;
+}
+
+#property-three-main-content h1{
+    padding: 5px;
+    color: white;
+    background:rgba(236, 56, 59, 1);
+    border-radius: 7px 7px 7px;   
+}
+
+.property-three-content-photos{
+    border-radius: 7px 7px 7px;
+    border: 10px 10px 10px black;
+    box-shadow: 10px 10px 10px;
+    
+}
+
+/* CSS for Site Map / Credsits Page */
+#sitemap-credits-main{
+    padding: 20px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgba(0,0,0,0.5);
+    background-blend-mode: overlay;
+    background-image: url('images/o.jpg');
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    background-size:cover;
+    padding-bottom: 400px;
+}
+#test{
+    padding: 50px;
+    margin-left: 310px;
+    margin-right: 310px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    flex: 1 1 auto;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 7px 7px 7px;
+    border: 10px 10px 10px black;
+    box-shadow: 10px 10px 10px;
+}
+#sitemap-credits-main h1{
+    margin:10px;
+    color: white;
+}
+#site-map{
+    padding: 50px;
+    margin-left: 310px;
+    margin-right: 310px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    flex: 1 1 auto;
+    text-align: left;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 7px 7px 7px;
+    border: 10px 10px 10px black;
+    box-shadow: 10px 10px 10px;
+}
+#site-map ul{
+    margin-right: 7px;
+}

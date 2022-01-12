@@ -5,6 +5,7 @@ body{
     margin-right: auto;
     color: 464646;
 }
+
 #allPage{
     width: 980px;
     margin-top: 5px;
@@ -17,7 +18,9 @@ body{
 #CenColBanner{
     margin-top: 10px;
     margin-left: -150px;
-    width:300px;
+    width:327px;
+    
+   
 }
 h1{
     color: #464646;
