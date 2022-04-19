@@ -1,0 +1,32 @@
+[
+    {
+        "imageFileName": "images/holybible.jpg",
+        "order": 1,
+        "description": "Front Cover of the Holy Bible",
+        "duration": 15
+    },
+    {
+        "imageFileName": "images/matthew.jpg",
+        "order": 2,
+        "description": "The Gospel according to Matthew",
+        "duration": 15
+    },
+    {
+        "imageFileName": "images/mark.jpg",
+        "order": 3,
+        "description": "The Gospel according to Mark",
+        "duration": 15
+    },
+    {
+        "imageFileName": "images/luke.jpg",
+        "order": 4,
+        "description": "The Gospel according to Luke",
+        "duration": 15
+    },
+    {
+        "imageFileName": "images/john.jpg",
+        "order": 5,
+        "description": "The Gospel according to John",
+        "duration": 15
+    }
+]

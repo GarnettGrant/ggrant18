@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 2 - Draw a Table</title>
+    <link rel="shortcut icon" href="/ggrant18/sem2/Garnett_Transparent_Headshot.png">
+    <link rel="stylesheet" href="assignment2.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+<!-- Nav -->
+<nav class="nav nav-tabs nav-justified">
+    <div class="nav-item nav-pills nav-link ml-auto mr-auto width-980 ">
+        <a href="/ggrant18/sem2/index.html">Home</a>
+    </div>
+    <div class="nav-item nav-pills nav-link ml-auto mr-auto width-980">
+        <a href="/ggrant18/sem2/assignment1/assignment1.html">Assignment 1</a>
+    </div>
+    <div class="nav-item nav-pills nav-link ml-auto mr-auto width-980 ">
+        <a href="/ggrant18/sem2/assignment2/assignment2.html">Assignment 2</a>
+    </div>
+    <div class="nav-item nav-pills nav-link ml-auto mr-auto width-980 ">
+        <a href="/ggrant18/sem2/assignment3/photos.htm">Assignment 3</a>
+    </div>
+    <div class="nav-item nav-pills nav-link ml-auto mr-auto width-980 ">
+        <a href="/ggrant18/sem2/assignment4/assignment4.html">Assignment 4</a>
+    </div>
+    <div class="nav-item nav-pills nav-link ml-auto mr-auto width-980 ">
+        <a href="/ggrant18/sem2/assignment5/assignment5.html">Assignment 5</a>
+    </div>
+    <div class="nav-item nav-pills nav-link ml-auto mr-auto width-980 ">
+        <a href="/ggrant18/sem2/assignment6/assignment6.html">Assignment 6</a>
+    </div>
+</nav>
+<body class="bg-light">
+    <div id="wrapper" class="container">
+
+    
+    <h1 class="card-header text-center shadow mb-3">Draw a table</h1>
+    <div id="input" class="text-center">
+
+        <label for="table-rows-input">Rows: </label>
+        <!-- Table rows = Table length -->
+        <input type="number" name="table-rows-input" id="table-rows-input" size="2"min="1" value="15">
+        
+        <br>
+        <br>
+        
+        <label for="table-columns-input">Columns: </label>
+        <!-- Table columns = Table width -->
+        <input type="number" name="table-columns-input" id="table-columns-input" size="2"min="1" value="15" class="">
+        
+        <br>
+        <br>
+    </div>
+    <div>
+        <input type="button" id="draw-table-button" value="Draw Table" class="btn btn-block btn-danger w-25 text-center ml-auto mr-auto w-auto mb-5">
+    </div>
+    
+    <div id="dynamic-table" class="overflow"></div>
+    
+    <footer class="text-center">
+        &copy; Garnett Grant - Centennial Colllege - COMP 225 - SEC 07 - 2022
+    </footer>
+    </div>
+    
+    <script src="assignment2.js">
+
+    </script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+</html>
