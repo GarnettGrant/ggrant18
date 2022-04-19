@@ -1,0 +1,12 @@
+#this_hr{
+    color: red;
+    background: red;
+    height: 5px;
+}
+nav a {
+    text-decoration: none;
+    
+}
+nav a:hover{
+    color: black;
+}
