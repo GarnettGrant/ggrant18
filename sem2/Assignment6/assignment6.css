@@ -1,0 +1,105 @@
+body{
+    background-image: url('images/background1.jpg');
+    background-repeat: no-repeat;
+    background-size:cover;
+  
+}
+
+h1 {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-size:xx-large;
+    text-align: center;
+}
+#pictureBox {
+    
+    border: 2px solid black;
+    width: 512px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 512px;
+    opacity: 0.7;
+}
+/* 
+#leftArrow{
+    left: 0px;
+}
+
+#rightArrow{
+    right: 0;
+}
+
+#leftArrow, #rightArrow{
+    background: #5b3207;
+    color: white;
+    position: absolute;
+    z-index: 30;
+    text-align: center;
+    height: 135px;
+    width: 40px;
+    top: 367px;
+    padding: 50px;
+}
+
+#leftArrow p, #rightArrow p {
+    position: relative;
+    top: 50%;
+    margin-top: -0.5em;
+    font-size: xx-large;
+    
+} */
+
+#pictureBoxButtons{
+    text-align: center;
+    padding: 10px;
+}
+
+button{
+    border: 10px 10px;
+    border-radius: 10px 10px;
+    padding: 10px;
+    width: 100px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    background-color: rgba(222, 184, 135, 0.582);
+}
+button:hover{
+    background-color: rgba(150, 124, 89, 0.582);
+    color: rgb(44, 44, 44);
+}
+
+.btnDivider{
+    display: inline-block;
+    width: 100px;
+}
+nav{
+    display: flex;
+    justify-content:space-around;
+    text-align: center;
+    padding: 20px;
+    background-color: rgba(107,142,35,0.1);
+    backdrop-filter: blur(8px);
+    margin-left: -10px;
+    margin-right: -7px;
+    top: 0px;
+    margin-top: -10px;
+}
+nav a {
+    text-decoration: none;
+    color:rgba(0, 0, 0, 0.699);
+}
+nav a:hover{
+    color: rgb(0, 0, 255);
+    transition: 300ms;
+}
+nav a::after{
+    content: '';
+    width: 0px;
+    height: 1px;
+    display: block;
+    background: rgb(30, 0, 255);
+    transition: 300ms;
+}
+nav a:hover::after{
+    width: 100%;
+}
