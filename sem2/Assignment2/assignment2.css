@@ -1,0 +1,12 @@
+input[type='number']{
+   width: 40px;
+}
+table > td,tr{
+    text-align: center;
+}
+#dynamic-table{
+    
+    text-align: -webkit-center;
+    border:transparent;
+    
+}

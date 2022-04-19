@@ -1,0 +1,84 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: antiquewhite;
+    background-image: url('images/2021-bargaining-scrape-960x488_tc_0_0_0.png');
+}
+#allPage{
+    width: 650px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    background-color:rgba(255, 240, 221, 0.699);
+    border: 5px rgb(64, 131, 218) solid;
+    border-radius:  10px 10px 10px 10px;
+    
+}
+nav{
+    display: flex;
+    justify-content:space-around;
+    text-align: center;
+    padding: 20px;
+    background-color: rgba(107,142,35,0.1);
+    backdrop-filter: blur(8px);
+    margin-left: -10px;
+    margin-right: -10px;
+    top: 0px;
+    margin-top: -10px;
+}
+nav a {
+    text-decoration: none;
+    color:rgba(255, 218, 169, 0.699);
+}
+nav a:hover{
+    color: white;
+    transition: 300ms;
+}
+nav a::after{
+    content: '';
+    width: 0px;
+    height: 1px;
+    display: block;
+    background: white;
+    transition: 300ms;
+}
+nav a:hover::after{
+    width: 100%;
+}
+
+table{
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    border-spacing: 4px;
+}
+label, input, button, select{
+    /*Allows definition for widths*/
+    display: inline-block;
+    width: 170px;
+}
+
+
+
+label{
+    width: 37%;
+    text-align: left;
+}
+button{
+    text-align: justify;
+    margin-top: 15px;
+    padding: 5px;
+    margin-left: 20px;
+    margin-right: 20px;    
+    background-color:rgba(64, 131, 218, 0.26);
+    border-radius: 10px 10px;
+    color:rgba(255, 244, 231, 0.699);
+}
+
+button:hover{
+    color: white;
+    transition: 300ms;
+}
